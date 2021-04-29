@@ -1,9 +1,9 @@
-# gqlgen tranport for apollo-link-batch-http
+# gqlgen transport for apollo-link-batch-http
 
 This is a [gqlgen](https://github.com/99designs/gqlgen) transport for [apollo-link-batch-http](https://www.apollographql.com/docs/react/api/link/apollo-link-batch-http/).
 
 This transport supports not only apollo-link-batch-http requests but also normal JSON post requests,
-so you can replace `transport.POST{}` by this transport.
+so you should replace `transport.POST{}` by this transport.
 
 # Usage
 
